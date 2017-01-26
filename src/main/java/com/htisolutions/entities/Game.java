@@ -26,16 +26,6 @@ public class Game {
 
     public Game() { }
 
-    public Game(Long id) {
-        this.id = id;
-    }
-
-    public Game(Date date, Long winnerId, Long loserId) {
-        this.date = date;
-        this.winnerId = winnerId;
-        this.loserId = loserId;
-    }
-
     public Long getId() {
         return this.id;
     }
