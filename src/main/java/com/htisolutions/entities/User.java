@@ -1,6 +1,5 @@
 package com.htisolutions.entities;
 
-
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
@@ -12,10 +11,11 @@ public class User {
     private Long id;
 
     @NotNull
-    @Column(name="nickname")
+    @Column(name = "nickname")
     private String nickname;
 
-    public User() { }
+    public User() {
+    }
 
     public Long getId() {
         return this.id;
