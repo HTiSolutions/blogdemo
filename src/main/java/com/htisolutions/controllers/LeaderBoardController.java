@@ -28,5 +28,4 @@ public class LeaderBoardController {
         model.addObject("leaderboardEntries", leaderboardEntries);
         return model;
     }
-
 }

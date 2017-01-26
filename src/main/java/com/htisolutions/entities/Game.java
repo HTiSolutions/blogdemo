@@ -1,6 +1,5 @@
 package com.htisolutions.entities;
 
-
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
@@ -13,18 +12,19 @@ public class Game {
     private Long id;
 
     @NotNull
-    @Column(name="date")
+    @Column(name = "date")
     private Date date;
 
     @NotNull
-    @Column(name="winner_id")
+    @Column(name = "winner_id")
     private Long winnerId;
 
     @NotNull
-    @Column(name="loser_id")
+    @Column(name = "loser_id")
     private Long loserId;
 
-    public Game() { }
+    public Game() {
+    }
 
     public Long getId() {
         return this.id;
